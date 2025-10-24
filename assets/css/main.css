@@ -167,9 +167,11 @@ h6 {
   font-size: 26px;
   margin: 0;
   font-weight: 500;
-  color: var(--contrast-color);
+  color: var(--heading-color);
 }
-
+.header .logo .sitename{
+  color: var(--heading-color);
+}
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
